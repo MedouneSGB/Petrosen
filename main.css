@@ -26,6 +26,10 @@ body {
     color: #044389;
 }
 
+.bleu1 {
+    color: #82a1c4;
+}
+
 .blanc {
     color: white;
 }
@@ -55,12 +59,12 @@ body {
 
 .section5 {
     background-color: aliceblue;
-    height: 364px;
+    height: 384px;
 }
 
 .section6 {
-    background-color: #044389;
-    height: 170px;
+    background-color: aliceblue;
+    height: 185px;
 }
 
 .section7 {
@@ -70,12 +74,12 @@ body {
 
 .section8 {
     background-color: white;
-    height: 300px;
+    height: 390px;
 }
 
 .section9 {
     background-color: #044389;
-    height: 300px;
+    height: 70px;
 }
 
 .gauche1 {
@@ -106,17 +110,36 @@ body {
 #logo {
     float: left;
     height: 90px;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
-ul {
+#logo:hover {
+    box-shadow: 0px 0px 15px #044389;
+}
+
+#logo2 {
+    float: left;
+    height: 150px;
+    margin-left: 70px;
+}
+
+#logo2:hover {
+    box-shadow: 0px 0px 15px #044389;
+}
+
+.foottext {
+    width: 100%;
+}
+
+#head ul {
+    margin-right: 100px;
     list-style-type: none;
     padding: 32px 32px;
     overflow: hidden;
     background-color: white;
 }
 
-li {
+#head li {
     float: right;
     font-family: 'Poppins', sans-serif;
 }
@@ -125,11 +148,18 @@ li a {
     display: center;
     color: #044389;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
 li a:hover {
+    background-color: #fc1d26;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 7px;
+}
+
+.actif {
     background-color: #fc1d26;
     color: white;
     box-shadow: 0px 0px 10px white;
@@ -205,6 +235,35 @@ li a:hover {
     display: inline-block;
     width: 30%;
     height: 230px;
+}
+
+.left2 {
+    display: inline-block;
+    width: 24%;
+    height: 230px;
+}
+
+.center2 {
+    display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+    height: 230px;
+}
+
+.center2 ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.right2 {
+    display: inline-block;
+    width: 30%;
+    height: 230px;
+}
+
+.right2 ul {
+    overflow: hidden;
+    list-style-type: none;
 }
 
 .text1 {
