@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0%;
+    background-color: white;
+}
+
+.span1 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+}
+
+.section1 {
+    background-image: url(Calque9a.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    padding-top: 5px;
+}
+
+.section2 {
+    background-color: white;
+    height: 600px;
+}
+
+.section3 {
+    background-color: #044389;
+    height: 400px;
+}
+
+.section4 {
+    background-color: white;
+    height: 400px;
+}
+
+.section5 {
+    background-color: grey;
+    height: 300px;
+}
+
+.section6 {
+    background-color: #044389;
+    height: 300px;
+}
+
+.section7 {
+    background-color: #fc1d26;
+    height: 300px;
+}
+
+.section8 {
+    background-color: white;
+    height: 300px;
+}
+
+.section9 {
+    background-color: #044389;
+    height: 300px;
+}
+
+.gauche1 {
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #044389;
+    width: 40%;
+    float: left;
+}
+
+.droite1 {
+    background-image: url(Calque11.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #044389;
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+#head {
+    background-color: white;
+    height: 90px;
+}
+
+#logo {
+    float: left;
+    height: 90px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 36px 32px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: center;
+    color: #044389;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #fc1d26;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 7px;
+}
