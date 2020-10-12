@@ -5,9 +5,16 @@ body {
 }
 
 .span1 {
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 42px;
     text-align: center;
+}
+
+.textSec1 {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    padding: 50px;
 }
 
 .bleu {
@@ -19,10 +26,10 @@ body {
 }
 
 .section1 {
-    background-image: url(Calque9a.png);
+    background-image: url(Calque9.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 700px;
+    height: 1000px;
     padding-top: 5px;
 }
 
@@ -98,13 +105,14 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 36px 32px;
+    padding: 32px 32px;
     overflow: hidden;
     background-color: white;
 }
 
 li {
     float: right;
+    font-family: 'Poppins', sans-serif;
 }
 
 li a {
@@ -152,5 +160,20 @@ li a:hover {
     transform: translateY(-7px);
     box-shadow: 3px 3px 15px #9C8AF1;
     color: #9C8AF1;
+    background-color: white;
+}
+
+.button2 {
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    outline: none;
+}
+
+.button2:hover {
+    box-shadow: 0px 0px 15px #044389;
+    color: black;
     background-color: white;
 }
