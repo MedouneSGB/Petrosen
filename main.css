@@ -5,12 +5,17 @@ body {
 }
 
 .span1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
     text-align: center;
 }
 
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
+.bleu {
+    color: #044389;
+}
+
+.blanc {
+    color: white;
 }
 
 .section1 {
@@ -23,7 +28,7 @@ h1 {
 
 .section2 {
     background-color: white;
-    height: 600px;
+    height: 665px;
 }
 
 .section3 {
