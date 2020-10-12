@@ -184,3 +184,28 @@ li a:hover {
     color: black;
     background-color: white;
 }
+
+.left1 {
+    padding-top: 20px;
+    background-color: black;
+    display: inline-block;
+    width: 30%;
+    height: 230px;
+}
+
+.center1 {
+    padding-top: 20px;
+    background-color: black;
+    display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+    height: 230px;
+}
+
+.right1 {
+    padding-top: 20px;
+    display: inline-block;
+    background-color: black;
+    width: 30%;
+    height: 230px;
+}
